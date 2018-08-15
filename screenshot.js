@@ -9,9 +9,9 @@ const BUTTON_SELECTOR = '#login_submit';
 var base_uri = 'https://insights.newrelic.com/accounts/' + CREDS.accountid + '/dashboards/'
 
 var dashboards = {
-    "661669" : "esclient_singapore_legacy",
-    "661648" : "bridge_singapore_apac",
-    "661653" : "bridge_oregon_rainbow",
+    "661669" : "dashboard_1",
+    "661648" : "dashboard_2",
+    "661653" : "dashboard_3",
     }
 
 async function run() {
